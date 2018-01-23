@@ -1,0 +1,167 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.reaktivity</groupId>
+  <artifactId>ry-bom</artifactId>
+  <packaging>pom</packaging>
+  <version>develop-SNAPSHOT</version>
+  <name>Reaktivity BOM for Java Projects</name>
+  <url>https://github.com/reaktivity/ry-bom.java</url>
+
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <id>reaktivity.org</id>
+      <name>The Reaktivity Project Contributors</name>
+      <url>http://reaktivity.org/</url>
+      <organization>The Reaktivity Project</organization>
+      <organizationUrl>http://reaktivity.org/</organizationUrl>
+    </developer>
+  </developers>
+
+  <scm>
+    <connection>scm:git:https://github.com/reaktivity/ry-bom.java</connection>
+    <developerConnection>scm:git:https://github.com/reaktivity/ry-bom.java</developerConnection>
+    <url>https://github.com/reaktivity/ry-bom.java</url>
+  </scm>
+
+  <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+  </properties>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.reaktivity</groupId>
+        <artifactId>reaktor</artifactId>
+        <version>0.36</version>
+      </dependency>
+      <dependency>
+        <groupId>org.reaktivity</groupId>
+        <artifactId>nukleus-tcp</artifactId>
+        <version>0.29</version>
+      </dependency>
+      <dependency>
+        <groupId>org.reaktivity</groupId>
+        <artifactId>nukleus-tls</artifactId>
+        <version>0.40</version>
+      </dependency>
+      <dependency>
+        <groupId>org.reaktivity</groupId>
+        <artifactId>nukleus-http</artifactId>
+        <version>0.40</version>
+      </dependency>
+      <dependency>
+        <groupId>org.reaktivity</groupId>
+        <artifactId>nukleus-ws</artifactId>
+        <version>0.35</version>
+      </dependency>
+      <dependency>
+        <groupId>org.reaktivity</groupId>
+        <artifactId>nukleus-http2</artifactId>
+        <version>0.47</version>
+      </dependency>
+      <dependency>
+        <groupId>org.reaktivity</groupId>
+        <artifactId>nukleus-http-cache</artifactId>
+        <version>0.40</version>
+      </dependency>
+      <dependency>
+        <groupId>org.reaktivity</groupId>
+        <artifactId>nukleus-auth-jwt</artifactId>
+        <version>0.6</version>
+      </dependency>
+      <dependency>
+        <groupId>org.reaktivity</groupId>
+        <artifactId>nukleus-kafka</artifactId>
+        <version>0.14</version>
+      </dependency>
+      <dependency>
+        <groupId>org.reaktivity</groupId>
+        <artifactId>nukleus-sse</artifactId>
+        <version>0.8</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+  <profiles>
+    <profile>
+      <id>release</id>
+
+      <distributionManagement>
+        <snapshotRepository>
+          <id>ossrh</id>
+          <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+          <id>ossrh</id>
+          <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+      </distributionManagement>
+
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-enforcer-plugin</artifactId>
+            <version>3.0.0-M1</version>
+            <executions>
+              <execution>
+                <id>enforce-no-snapshots</id>
+                <phase>validate</phase>
+                <goals>
+                  <goal>enforce</goal>
+                </goals>
+                <configuration>
+                  <rules>
+                    <requireReleaseDeps>
+                      <message>No Snapshots Allowed!</message>
+                    </requireReleaseDeps>
+                  </rules>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+          <plugin>
+            <groupId>org.sonatype.plugins</groupId>
+            <artifactId>nexus-staging-maven-plugin</artifactId>
+            <version>1.6.8</version>
+            <extensions>true</extensions>
+            <configuration>
+              <serverId>ossrh</serverId>
+              <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+              <autoReleaseAfterClose>true</autoReleaseAfterClose>
+            </configuration>
+          </plugin>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-gpg-plugin</artifactId>
+            <version>1.6</version>
+            <executions>
+              <execution>
+                <goals>
+                  <goal>sign</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+  </profiles>
+
+</project>
+
