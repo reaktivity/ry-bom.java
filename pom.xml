@@ -48,18 +48,19 @@
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>reaktor</artifactId>
-        <version>0.38</version>
+        <version>develop-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-tcp</artifactId>
-        <version>0.30</version>
+        <version>develop-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-tls</artifactId>
-        <version>0.42</version>
+        <version>develop-SNAPSHOT</version>
       </dependency>
+<!--
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-http</artifactId>
@@ -70,11 +71,13 @@
         <artifactId>nukleus-ws</artifactId>
         <version>0.36</version>
       </dependency>
+-->
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-http2</artifactId>
-        <version>0.49</version>
+        <version>develop-SNAPSHOT</version>
       </dependency>
+<!--
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-http-cache</artifactId>
@@ -85,15 +88,16 @@
         <artifactId>nukleus-auth-jwt</artifactId>
         <version>0.8</version>
       </dependency>
+-->
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-kafka</artifactId>
-        <version>0.18</version>
+        <version>develop-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-sse</artifactId>
-        <version>0.12</version>
+        <version>develop-SNAPSHOT</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
