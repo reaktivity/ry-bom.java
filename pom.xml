@@ -48,17 +48,17 @@
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>reaktor</artifactId>
-        <version>0.70</version>
+        <version>0.71</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-tcp</artifactId>
-        <version>0.66</version>
+        <version>0.67</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-tls</artifactId>
-        <version>0.74</version>
+        <version>0.75</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
