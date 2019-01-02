@@ -7,7 +7,7 @@
   <groupId>org.reaktivity</groupId>
   <artifactId>ry-bom</artifactId>
   <packaging>pom</packaging>
-  <version>0.209</version>
+  <version>0.210</version>
   <name>Reaktivity BOM for Java Projects</name>
   <description>Reaktivity BOM for Java Projects</description>
   <url>https://github.com/reaktivity/ry-bom.java</url>
@@ -48,52 +48,52 @@
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>reaktor</artifactId>
-        <version>0.72</version>
+        <version>0.73</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-tcp</artifactId>
-        <version>0.68</version>
-      </dependency>
-      <dependency>
-        <groupId>org.reaktivity</groupId>
-        <artifactId>nukleus-tls</artifactId>
-        <version>0.77</version>
-      </dependency>
-      <dependency>
-        <groupId>org.reaktivity</groupId>
-        <artifactId>nukleus-http</artifactId>
         <version>0.69</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
+        <artifactId>nukleus-tls</artifactId>
+        <version>0.78</version>
+      </dependency>
+      <dependency>
+        <groupId>org.reaktivity</groupId>
+        <artifactId>nukleus-http</artifactId>
+        <version>0.70</version>
+      </dependency>
+      <dependency>
+        <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-ws</artifactId>
-        <version>0.54</version>
+        <version>0.56</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-http2</artifactId>
-        <version>0.85</version>
+        <version>0.86</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-http-cache</artifactId>
-        <version>0.76</version>
+        <version>0.77</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-auth-jwt</artifactId>
-        <version>0.23</version>
+        <version>0.24</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-kafka</artifactId>
-        <version>0.133</version>
+        <version>0.134</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-sse</artifactId>
-        <version>0.37</version>
+        <version>0.38</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
