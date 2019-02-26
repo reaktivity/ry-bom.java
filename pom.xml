@@ -52,6 +52,16 @@
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
+        <artifactId>nukleus-echo</artifactId>
+        <version>0.1</version>
+      </dependency>
+      <dependency>
+        <groupId>org.reaktivity</groupId>
+        <artifactId>nukleus-fan</artifactId>
+        <version>0.1</version>
+      </dependency>
+      <dependency>
+        <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-tcp</artifactId>
         <version>0.71</version>
       </dependency>
