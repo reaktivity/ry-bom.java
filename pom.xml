@@ -7,7 +7,7 @@
   <groupId>org.reaktivity</groupId>
   <artifactId>ry-bom</artifactId>
   <packaging>pom</packaging>
-  <version>0.282</version>
+  <version>0.283</version>
   <name>Reaktivity BOM for Java Projects</name>
   <description>Reaktivity BOM for Java Projects</description>
   <url>https://github.com/reaktivity/ry-bom.java</url>
@@ -83,7 +83,7 @@
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-ws</artifactId>
-        <version>0.64</version>
+        <version>0.65</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
@@ -93,12 +93,12 @@
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-http-cache</artifactId>
-        <version>0.93</version>
+        <version>0.94</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-oauth</artifactId>
-        <version>0.39</version>
+        <version>0.42</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
@@ -108,7 +108,7 @@
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-sse</artifactId>
-        <version>0.45</version>
+        <version>0.46</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
