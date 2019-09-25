@@ -103,12 +103,12 @@
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-kafka</artifactId>
-        <version>0.161</version>
+        <version>0.162</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-sse</artifactId>
-        <version>0.57</version>
+        <version>0.58</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
