@@ -78,17 +78,12 @@
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-http</artifactId>
-        <version>0.92</version>
+        <version>0.93</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-ws</artifactId>
         <version>0.69</version>
-      </dependency>
-      <dependency>
-        <groupId>org.reaktivity</groupId>
-        <artifactId>nukleus-http2</artifactId>
-        <version>0.111</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
