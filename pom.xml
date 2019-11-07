@@ -48,7 +48,7 @@
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>reaktor</artifactId>
-        <version>0.108</version>
+        <version>0.109</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
@@ -78,7 +78,7 @@
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-http</artifactId>
-        <version>0.113</version>
+        <version>0.114</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
@@ -88,7 +88,7 @@
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-http-cache</artifactId>
-        <version>0.110</version>
+        <version>0.111</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
