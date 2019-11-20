@@ -103,7 +103,7 @@
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-sse</artifactId>
-        <version>0.61</version>
+        <version>0.62</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
