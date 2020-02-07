@@ -13,6 +13,11 @@
 
     <module name="NewlineAtEndOfFile"/>
 
+    <module name="LineLength">
+        <property name="max" value="130"/>
+        <property name="ignorePattern" value="^[ \t]*\*.*@.*$"/>
+    </module>
+
     <module name="TreeWalker">
         <property name="tabWidth" value="4"/>
         <property name="severity" value="error"/>
@@ -74,11 +79,6 @@
  
         <module name="LeftCurly">
             <property name="option" value="nl"/>
-        </module>
-
-        <module name="LineLength">
-            <property name="max" value="130"/>
-            <property name="ignorePattern" value="^[ \t]*\*.*@.*$"/>
         </module>
 
         <module name="LocalFinalVariableName"/>
@@ -168,6 +168,10 @@
 
         <module name="WhitespaceAfter">
             <property name="tokens" value="COMMA, SEMI, LITERAL_IF, LITERAL_WHILE, LITERAL_FOR"/>
+        </module>
+
+        <module name="WhitespaceAround">
+            <property name="allowEmptyLambdas" value="true"/>
         </module>
     </module>
 
