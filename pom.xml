@@ -105,6 +105,11 @@
         <artifactId>nukleus-sse</artifactId>
         <version>0.68</version>
       </dependency>
+      <dependency>
+        <groupId>org.reaktivity</groupId>
+        <artifactId>nukleus-mqtt</artifactId>
+        <version>0.1</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 
