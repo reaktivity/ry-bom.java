@@ -98,7 +98,7 @@
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-kafka</artifactId>
-        <version>0.209</version>
+        <version>0.210</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
