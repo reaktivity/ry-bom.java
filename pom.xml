@@ -93,22 +93,22 @@
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-oauth</artifactId>
-        <version>0.60</version>
+        <version>0.61</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-kafka</artifactId>
-        <version>0.240</version>
+        <version>0.241</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-sse</artifactId>
-        <version>0.75</version>
+        <version>0.76</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-mqtt</artifactId>
-        <version>0.21</version>
+        <version>0.22</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
