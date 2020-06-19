@@ -48,47 +48,47 @@
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>reaktor</artifactId>
-        <version>0.135</version>
+        <version>0.137</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-echo</artifactId>
-        <version>0.16</version>
+        <version>0.17</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-fan</artifactId>
-        <version>0.16</version>
+        <version>0.17</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-flow</artifactId>
-        <version>0.14</version>
+        <version>0.15</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-tcp</artifactId>
-        <version>0.99</version>
+        <version>0.100</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-tls</artifactId>
-        <version>0.141</version>
+        <version>0.142</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-http</artifactId>
-        <version>0.144</version>
+        <version>0.145</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-ws</artifactId>
-        <version>0.73</version>
+        <version>0.74</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-http-cache</artifactId>
-        <version>0.134</version>
+        <version>0.136</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
