@@ -83,7 +83,7 @@
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-ws</artifactId>
-        <version>0.74</version>
+        <version>0.75</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
