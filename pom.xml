@@ -7,7 +7,7 @@
   <groupId>org.reaktivity</groupId>
   <artifactId>ry-bom</artifactId>
   <packaging>pom</packaging>
-  <version>0.514</version>
+  <version>0.515</version>
   <name>Reaktivity BOM for Java Projects</name>
   <description>Reaktivity BOM for Java Projects</description>
   <url>https://github.com/reaktivity/ry-bom.java</url>
@@ -83,7 +83,7 @@
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-ws</artifactId>
-        <version>0.74</version>
+        <version>0.75</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
@@ -98,7 +98,7 @@
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-kafka</artifactId>
-        <version>0.249</version>
+        <version>0.250</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
@@ -113,7 +113,7 @@
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-amqp</artifactId>
-        <version>0.4</version>
+        <version>0.5</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
