@@ -108,7 +108,7 @@
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-mqtt</artifactId>
-        <version>0.27</version>
+        <version>0.28</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
