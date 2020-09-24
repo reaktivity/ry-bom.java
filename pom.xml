@@ -73,12 +73,12 @@
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-tls</artifactId>
-        <version>0.151</version>
+        <version>0.152</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-http</artifactId>
-        <version>0.152</version>
+        <version>0.151</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
