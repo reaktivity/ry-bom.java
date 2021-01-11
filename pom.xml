@@ -48,12 +48,12 @@
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>reaktor</artifactId>
-        <version>0.153</version>
+        <version>0.154</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-echo</artifactId>
-        <version>0.18</version>
+        <version>0.19</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
@@ -68,7 +68,7 @@
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-tcp</artifactId>
-        <version>0.106</version>
+        <version>0.107</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
@@ -118,7 +118,7 @@
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-proxy</artifactId>
-        <version>0.4</version>
+        <version>0.5</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
