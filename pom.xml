@@ -161,6 +161,9 @@
                     <requireReleaseDeps>
                       <message>No Snapshots Allowed!</message>
                     </requireReleaseDeps>
+                    <requireJavaVersion>
+                      <version>[11,12)</version>
+                    </requireJavaVersion>
                   </rules>
                 </configuration>
               </execution>
