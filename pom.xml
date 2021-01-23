@@ -53,77 +53,77 @@
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>reaktor</artifactId>
-        <version>0.154</version>
-      </dependency>
-      <dependency>
-        <groupId>org.reaktivity</groupId>
-        <artifactId>nukleus-echo</artifactId>
-        <version>0.19</version>
-      </dependency>
-      <dependency>
-        <groupId>org.reaktivity</groupId>
-        <artifactId>nukleus-fan</artifactId>
-        <version>0.18</version>
-      </dependency>
-      <dependency>
-        <groupId>org.reaktivity</groupId>
-        <artifactId>nukleus-flow</artifactId>
-        <version>0.16</version>
-      </dependency>
-      <dependency>
-        <groupId>org.reaktivity</groupId>
-        <artifactId>nukleus-tcp</artifactId>
-        <version>0.107</version>
-      </dependency>
-      <dependency>
-        <groupId>org.reaktivity</groupId>
-        <artifactId>nukleus-tls</artifactId>
-        <version>0.169</version>
-      </dependency>
-      <dependency>
-        <groupId>org.reaktivity</groupId>
-        <artifactId>nukleus-http</artifactId>
         <version>0.155</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
+        <artifactId>nukleus-echo</artifactId>
+        <version>0.20</version>
+      </dependency>
+      <dependency>
+        <groupId>org.reaktivity</groupId>
+        <artifactId>nukleus-fan</artifactId>
+        <version>0.19</version>
+      </dependency>
+      <dependency>
+        <groupId>org.reaktivity</groupId>
+        <artifactId>nukleus-flow</artifactId>
+        <version>0.17</version>
+      </dependency>
+      <dependency>
+        <groupId>org.reaktivity</groupId>
+        <artifactId>nukleus-tcp</artifactId>
+        <version>0.108</version>
+      </dependency>
+      <dependency>
+        <groupId>org.reaktivity</groupId>
+        <artifactId>nukleus-tls</artifactId>
+        <version>0.170</version>
+      </dependency>
+      <dependency>
+        <groupId>org.reaktivity</groupId>
+        <artifactId>nukleus-http</artifactId>
+        <version>0.156</version>
+      </dependency>
+      <dependency>
+        <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-ws</artifactId>
-        <version>0.76</version>
+        <version>0.77</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-http-cache</artifactId>
-        <version>0.141</version>
+        <version>0.142</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-oauth</artifactId>
-        <version>0.62</version>
+        <version>0.63</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-kafka</artifactId>
-        <version>0.285</version>
+        <version>0.286</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-sse</artifactId>
-        <version>0.82</version>
+        <version>0.84</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-mqtt</artifactId>
-        <version>0.40</version>
+        <version>0.41</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-amqp</artifactId>
-        <version>0.38</version>
+        <version>0.40</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-proxy</artifactId>
-        <version>0.5</version>
+        <version>0.6</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
