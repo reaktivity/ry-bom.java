@@ -65,17 +65,17 @@
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-echo</artifactId>
-        <version>0.23</version>
+        <version>0.24</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-fan</artifactId>
-        <version>0.22</version>
+        <version>0.23</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-flow</artifactId>
-        <version>0.20</version>
+        <version>0.21</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
