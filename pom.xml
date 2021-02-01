@@ -90,22 +90,22 @@
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-http</artifactId>
-        <version>0.159</version>
+        <version>0.160</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-ws</artifactId>
-        <version>0.80</version>
+        <version>0.81</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-http-cache</artifactId>
-        <version>0.145</version>
+        <version>0.146</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-oauth</artifactId>
-        <version>0.66</version>
+        <version>0.67</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
@@ -115,7 +115,7 @@
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-sse</artifactId>
-        <version>0.87</version>
+        <version>0.88</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
@@ -130,7 +130,7 @@
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-proxy</artifactId>
-        <version>0.9</version>
+        <version>0.10</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
