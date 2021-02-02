@@ -7,7 +7,7 @@
   <groupId>org.reaktivity</groupId>
   <artifactId>ry-bom</artifactId>
   <packaging>pom</packaging>
-  <version>0.620</version>
+  <version>0.621</version>
   <name>Reaktivity BOM for Java Projects</name>
   <description>Reaktivity BOM for Java Projects</description>
   <url>https://github.com/reaktivity/ry-bom.java</url>
@@ -55,7 +55,7 @@
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>ry</artifactId>
-        <version>0.53</version>
+        <version>0.54</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
