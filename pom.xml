@@ -55,7 +55,7 @@
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>ry</artifactId>
-        <version>0.53</version>
+        <version>0.54</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
