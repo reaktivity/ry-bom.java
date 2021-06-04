@@ -65,7 +65,7 @@
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>reaktor</artifactId>
-        <version>develop-SNAPSHOT</version>
+        <version>0.166</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
