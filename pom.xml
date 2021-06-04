@@ -44,8 +44,8 @@
   </repositories>
 
   <properties>
-    <maven.compiler.source>9</maven.compiler.source>
-    <maven.compiler.target>9</maven.compiler.target>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
   </properties>
@@ -55,82 +55,77 @@
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>ry</artifactId>
-        <version>0.54</version>
+        <version>develop-SNAPSHOT</version>
+      </dependency>
+      <dependency>
+        <groupId>org.reaktivity</groupId>
+        <artifactId>ry-start</artifactId>
+        <version>develop-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>reaktor</artifactId>
-        <version>0.165</version>
+        <version>develop-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-echo</artifactId>
-        <version>0.24</version>
+        <version>develop-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-fan</artifactId>
-        <version>0.23</version>
+        <version>develop-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-flow</artifactId>
-        <version>0.21</version>
+        <version>develop-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-tcp</artifactId>
-        <version>0.112</version>
+        <version>develop-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-tls</artifactId>
-        <version>0.173</version>
+        <version>develop-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-http</artifactId>
-        <version>0.160</version>
+        <version>develop-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-ws</artifactId>
-        <version>0.81</version>
-      </dependency>
-      <dependency>
-        <groupId>org.reaktivity</groupId>
-        <artifactId>nukleus-http-cache</artifactId>
-        <version>0.147</version>
-      </dependency>
-      <dependency>
-        <groupId>org.reaktivity</groupId>
-        <artifactId>nukleus-oauth</artifactId>
-        <version>0.67</version>
+        <version>develop-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-kafka</artifactId>
-        <version>0.289</version>
+        <version>develop-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-sse</artifactId>
-        <version>0.88</version>
+        <version>develop-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-mqtt</artifactId>
-        <version>0.44</version>
+        <version>develop-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-amqp</artifactId>
-        <version>0.43</version>
+        <version>develop-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-proxy</artifactId>
-        <version>0.10</version>
+        <version>develop-SNAPSHOT</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
