@@ -55,7 +55,7 @@
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>ry</artifactId>
-        <version>develop-SNAPSHOT</version>
+        <version>0.57</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
@@ -85,7 +85,7 @@
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-tcp</artifactId>
-        <version>develop-SNAPSHOT</version>
+        <version>0.113</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
