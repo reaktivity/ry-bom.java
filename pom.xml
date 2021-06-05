@@ -70,7 +70,7 @@
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-echo</artifactId>
-        <version>develop-SNAPSHOT</version>
+        <version>0.25</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
