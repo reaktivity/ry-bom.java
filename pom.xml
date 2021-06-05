@@ -59,11 +59,6 @@
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
-        <artifactId>ry-start</artifactId>
-        <version>develop-SNAPSHOT</version>
-      </dependency>
-      <dependency>
-        <groupId>org.reaktivity</groupId>
         <artifactId>reaktor</artifactId>
         <version>0.166</version>
       </dependency>
@@ -95,7 +90,7 @@
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-http</artifactId>
-        <version>develop-SNAPSHOT</version>
+        <version>0.161</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
