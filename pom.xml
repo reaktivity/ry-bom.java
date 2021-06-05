@@ -80,7 +80,7 @@
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-flow</artifactId>
-        <version>develop-SNAPSHOT</version>
+        <version>0.22</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
