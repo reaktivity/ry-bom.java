@@ -7,7 +7,7 @@
   <groupId>org.reaktivity</groupId>
   <artifactId>ry-bom</artifactId>
   <packaging>pom</packaging>
-  <version>0.633</version>
+  <version>0.634</version>
   <name>Reaktivity BOM for Java Projects</name>
   <description>Reaktivity BOM for Java Projects</description>
   <url>https://github.com/reaktivity/ry-bom.java</url>
@@ -69,13 +69,18 @@
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
+        <artifactId>ry-load</artifactId>
+        <version>0.1</version>
+      </dependency>
+      <dependency>
+        <groupId>org.reaktivity</groupId>
         <artifactId>ry-stop</artifactId>
         <version>0.1</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>reaktor</artifactId>
-        <version>0.169</version>
+        <version>0.170</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
@@ -95,12 +100,12 @@
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-tcp</artifactId>
-        <version>0.113</version>
+        <version>0.114</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-tls</artifactId>
-        <version>0.175</version>
+        <version>0.176</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
@@ -135,7 +140,7 @@
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-proxy</artifactId>
-        <version>0.11</version>
+        <version>0.12</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
