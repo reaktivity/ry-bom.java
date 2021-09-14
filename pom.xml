@@ -105,7 +105,7 @@
       <dependency>
         <groupId>org.reaktivity</groupId>
         <artifactId>nukleus-tls</artifactId>
-        <version>0.181</version>
+        <version>0.182</version>
       </dependency>
       <dependency>
         <groupId>org.reaktivity</groupId>
